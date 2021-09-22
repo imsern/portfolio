@@ -71,7 +71,7 @@ body {
     align-self: center;
 }
 
-.navBtn:hover{
+.navBtnHover:hover{
     cursor: pointer;
     /* border: 1px solid orange; */
     transform: scale(1.2);
