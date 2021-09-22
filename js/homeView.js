@@ -14,7 +14,7 @@ function homeView() {
         for (j = 0; j < newItem.Tags.length; j++){
     html += `<p class="itemTags">${tagsName[j]}</p>`;
 }                
-    html += `<p class="homePageDesc">${descInfo}</p>
+    html += `<hr class="hrOrange"><p class="homePageDesc">${descInfo}</p>
         </div>`;
     }
  html += `</div>`;

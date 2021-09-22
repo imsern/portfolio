@@ -1,7 +1,9 @@
 .portfolioPageContainer {
+    margin-top: 2vh;
     min-height: 40vh;
     width: 75vw;
     margin-left: 12.5vw;
+    
     
 
     display: flex;
@@ -15,6 +17,7 @@
 .portfolioPageContainer > * {
     background-color: rgba(39, 39, 39, 0.61);
     margin-top: 1vh;
+    padding: 10px;
     border-width: 3px;
     border-style: solid;
     border-image: 
@@ -33,22 +36,16 @@
     text-align: center;
     color: white;
 }
-/* .HomePageItem:hover {
+.portfolioPageItem:hover {
     transform: scale(1.05);
-} */
-hr {
-    border: 0.1em solid transparent;
-    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(214, 214, 214, 0.267),rgba(255, 255, 255, 0));
-    border-image-slice: 1;
 }
-
-.itemTags{
+.portfolioItemTags{
     color: rgb(221, 135, 22);
     display: inline-block;
-    margin-left: 20px;
     margin-right: 20px;
+    font-weight: bold;
 }
-.itemTags:hover{
+.portfolioItemTags:hover{
     transform: scale(1.2);
     cursor: pointer;
 }

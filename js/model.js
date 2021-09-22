@@ -5,7 +5,7 @@ const model = {
         Content: [
             {
                 Title: {
-                    txt: 'Hello!',
+                    txt: 'Home Page!',
                     Tags: ['Lorem ', 'ipsum ', 'dolor ', 'consectetur'],
                     Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere. Iusto asperiores id tempore repudiandae neque excepturi, voluptas minima debitis quia inventore hic nulla ipsam esse molestias nam ipsum ratione blanditiis corrupti illo commodi accusantium impedit sequi aliquid.'
                 }
@@ -45,5 +45,27 @@ const model = {
                 }
             },
         ],
-    }
+    },
+    Aboutpageview: {
+        Content: [
+            {
+                Title: {
+                    txt: 'About Page!',
+                    Tags: ['Lorem ', 'ipsum ', 'dolor ', 'consectetur'],
+                    Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere. Iusto asperiores id tempore repudiandae neque excepturi, voluptas minima debitis quia inventore hic nulla ipsam esse molestias nam ipsum ratione blanditiis corrupti illo commodi accusantium impedit sequi aliquid.'
+                }
+            },
+        ],
+    },
+    Contactpageview: {
+        Content: [
+            {
+                Title: {
+                    txt: 'Contact Page!',
+                    Tags: ['Lorem ', 'ipsum ', 'dolor ', 'consectetur'],
+                    Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere. Iusto asperiores id tempore repudiandae neque excepturi, voluptas minima debitis quia inventore hic nulla ipsam esse molestias nam ipsum ratione blanditiis corrupti illo commodi accusantium impedit sequi aliquid.'
+                }
+            },
+        ],
+    },
 }

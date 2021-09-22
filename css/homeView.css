@@ -1,7 +1,9 @@
 .homePageContainer {
-    min-height: 40vh;
-    width: 75vw;
-    margin-left: 12.5vw;
+    margin-top: 2vh;
+    min-height: 50vh;
+    width: 30vw;
+    margin-left: 35vw;
+    /* background-color: red; */
     
 
     display: flex;
@@ -23,10 +25,10 @@
         rgb(228, 132, 7), 
         rgba(0, 0, 0, 0)
       ) 1 100%;
-    flex: 0 1 auto;
-    min-height: 20em;
+    flex: 1 1 auto;
+    min-height: 30em;
     min-width: 20em;
-    max-width: 33em;
+    /* max-width: 33em; */
     justify-content: center;
 }
 .homePageTitle {
@@ -36,23 +38,20 @@
 /* .HomePageItem:hover {
     transform: scale(1.05);
 } */
-hr {
-    border: 0.1em solid transparent;
-    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(214, 214, 214, 0.267),rgba(255, 255, 255, 0));
-    border-image-slice: 1;
-}
 
 .itemTags{
     color: rgb(221, 135, 22);
     display: inline-block;
-    margin-left: 20px;
     margin-right: 20px;
+    font-weight: bold;
+    
 }
 .itemTags:hover{
     transform: scale(1.2);
     cursor: pointer;
 }
 .homePageDesc{
+    font-size: 1.2em;
     margin-top: 50px;
     color: white;
     text-align: center;

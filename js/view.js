@@ -31,9 +31,12 @@ function navBar(){
     <header>
         <div class="headerContainer">
             <p class="navBtn homeBtn" onclick="changeView('Home')">Home</p>
+            <p class="navBtn">/</p>
             <p class="navBtn projectBtn" onclick="changeView('Portfolio')">
             Portfolio</p>
+            <p class="navBtn">/</p>
             <p class="navBtn aboutBtn" onclick="changeView('About')">About</p>
+            <p class="navBtn">/</p>
             <p class="navBtn contactBtn" onclick="changeView('Contact')">Contact</p>
         </div>
     </header>

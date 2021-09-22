@@ -1,0 +1,58 @@
+.aboutPageContainer {
+    margin-top: 2vh;
+    min-height: 50vh;
+    width: 30vw;
+    margin-left: 35vw;
+    /* background-color: red; */
+    
+
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+.aboutPageContainer > * {
+    background-color: rgba(39, 39, 39, 0.61);
+    margin-top: 1vh;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(228, 132, 7), 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+    flex: 1 1 auto;
+    min-height: 30em;
+    min-width: 20em;
+    /* max-width: 33em; */
+    justify-content: center;
+}
+.aboutPageTitle {
+    text-align: center;
+    color: white;
+}
+/* .aboutPageItem:hover {
+    transform: scale(1.05);
+} */
+
+.aboutitemTags{
+    color: rgb(221, 135, 22);
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+.aboutitemTags:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.aboutPageDesc{
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}

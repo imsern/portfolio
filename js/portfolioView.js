@@ -9,12 +9,12 @@ function portfolioView() {
   
   html += `
       <div class="portfolioPageItem">
-          <h2 class="homePageTitle">${titleName}</h2>
+          <h2 class="portfolioPageTitle">${titleName}</h2>
               <hr>`;
       for (j = 0; j < newItem.tags.length; j++){
-  html += `<p class="itemTags">${tagsName[j]}</p>`;
+  html += `<p class="portfolioItemTags">${tagsName[j]}</p>`;
 }                
-  html += `<p class="portfolioPageDesc">${descInfo}</p>
+  html += `<hr class="hrOrange"><p class="portfolioPageDesc">${descInfo}</p>
       </div>`;
   }
 html += `</div>`;

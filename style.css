@@ -1,8 +1,10 @@
-body {
-    scroll-behavior: smooth;
-    background-attachment: fixed;
+html, body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    background-attachment: fixed;
     background-color: rgb(68, 68, 68);
     position: absolute;
     background-repeat: no-repeat;
@@ -35,6 +37,7 @@ body {
 
 
 .headerContainer{
+    position: relative;
     max-height: 4em;
     min-height: 4em;
     width: 75vw;
@@ -62,15 +65,26 @@ body {
 }
 
 .navBtn{
+    display: inline-block;
     font-size: 1.1em;
-    margin-left: 25px;
+    margin-left: 10px;
     align-self: center;
 }
 
 .navBtn:hover{
     cursor: pointer;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
+    transform: scale(1.2);
     color: orange;
     padding: 5px;
 }
-
+hr {
+    border: 0.1em solid transparent;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(214, 214, 214, 0.267),rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+}
+.hrOrange {
+    border: 0.1em solid transparent;
+    border-image: linear-gradient(to right, rgba(248, 143, 4, 0), rgba(240, 146, 5, 0.267),rgba(233, 160, 4, 0));
+    border-image-slice: 1;
+}
