@@ -1,0 +1,59 @@
+.homePageContainer {
+    min-height: 40vh;
+    width: 75vw;
+    margin-left: 12.5vw;
+    
+
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+.homePageContainer > * {
+    background-color: rgba(39, 39, 39, 0.61);
+    margin-top: 1vh;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(228, 132, 7), 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+    flex: 0 1 auto;
+    min-height: 20em;
+    min-width: 20em;
+    max-width: 33em;
+    justify-content: center;
+}
+.homePageTitle {
+    text-align: center;
+    color: white;
+}
+/* .HomePageItem:hover {
+    transform: scale(1.05);
+} */
+hr {
+    border: 0.1em solid transparent;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(214, 214, 214, 0.267),rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+}
+
+.itemTags{
+    color: rgb(221, 135, 22);
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.itemTags:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.homePageDesc{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
