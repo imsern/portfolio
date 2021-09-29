@@ -1,5 +1,5 @@
 function homeView() {
-    let html = `<div class="homePageContainer">`;
+    let html = `<div class="homeContainer">`;
     let contentLoop = model.Homepageview.Content;
     for (i = 0; i < contentLoop.length; i++){
     const newItem = contentLoop[i].Title;
@@ -8,13 +8,17 @@ function homeView() {
     const descInfo = newItem.Description;
     
     html += `
-        <div class="HomePageItem">
-            <h2 class="homePageTitle">${titleName}</h2>
+        <div class="homeItemContainer">
+            <div class="homeItem">
+            <h2 class="homeTitle">${titleName}</h2>
                 <hr>`;
         for (j = 0; j < newItem.Tags.length; j++){
-    html += `<p class="itemTags">${tagsName[j]}</p>`;
+    html += `<div class="tagContainer">
+                <p class="tags">${tagsName[j]}</p></div>`;
 }                
-    html += `<hr class="hrOrange"><p class="homePageDesc">${descInfo}</p>
+    html += `<hr class="hrOrange">
+                <p class="homePageDesc">${descInfo}</p>
+            </div>
         </div>`;
     }
  html += `</div>`;

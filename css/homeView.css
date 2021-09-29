@@ -1,9 +1,98 @@
-.homePageContainer {
+.homeContainer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: 70vh;
+    width: 70vw;
+    
+    
+    
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.homeItemContainer{
+    display: flex;
+    max-width: 30vw;
+    min-height: 50vh;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(31, 28, 28, 0.637);
+    border-radius: 10px;
+}
+.homeItem{
+    flex: 0 1 1em;
+    color: white;
+    text-align: center;
+    align-self: center;
+}
+.tagContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tags{
+    color: orange;
+    font-weight: bold;
+    font-size: 1em;
+}
+.tags:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.homePageDesc{
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+hr {
+    width: 100%;
+    border: 0.1em solid transparent;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(214, 214, 214, 0.267),rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+}
+.profilePicture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* border: 1px solid orange; */
+}
+
+@media (max-width: 725px){
+    .homeContainer{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .homePageContainer {
     margin-top: 2vh;
     min-height: 50vh;
     width: 30vw;
     margin-left: 35vw;
-    /* background-color: red; */
     
 
     display: flex;
@@ -28,16 +117,12 @@
     flex: 1 1 auto;
     min-height: 30em;
     min-width: 20em;
-    /* max-width: 33em; */
     justify-content: center;
 }
 .homePageTitle {
     text-align: center;
     color: white;
 }
-/* .HomePageItem:hover {
-    transform: scale(1.05);
-} */
 
 .itemTags{
     color: rgb(221, 135, 22);
@@ -50,9 +135,4 @@
     transform: scale(1.2);
     cursor: pointer;
 }
-.homePageDesc{
-    font-size: 1.2em;
-    margin-top: 50px;
-    color: white;
-    text-align: center;
-}
+ */
