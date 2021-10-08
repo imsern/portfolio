@@ -34,14 +34,42 @@ const model = {
                 Title: {
                     txt: 'Title 3',
                     tags: ['HTML', 'CSS', 'Javascript'],
+                    Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere.',
+                }
+            },
+            {
+                Title: {
+                    txt: 'Title 4',
+                    tags: ['HTML', 'CSS', 'Javascript'],
                     Description: 'Insert description here!',
                 }
             },
             {
                 Title: {
-                    txt: 'Title 3',
+                    txt: 'Title 5',
+                    tags: ['HTML', 'CSS', 'Javascript'],
+                    Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere.',
+                }
+            },
+            {
+                Title: {
+                    txt: 'Title 6',
                     tags: ['HTML', 'CSS', 'Javascript'],
                     Description: 'Insert description here!',
+                }
+            },
+            {
+                Title: {
+                    txt: 'Title 7',
+                    tags: ['HTML', 'CSS', 'Javascript'],
+                    Description: 'Insert description here!',
+                }
+            },
+            {
+                Title: {
+                    txt: 'Title 8',
+                    tags: ['HTML', 'CSS', 'Javascript'],
+                    Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere.',
                 }
             },
         ],

@@ -10,16 +10,16 @@ function homeView() {
     html += `
         <div class="homeItemContainer">
             <div class="homeItem">
-            <h2 class="homeTitle">${titleName}</h2>
-                <hr>`;
-        for (j = 0; j < newItem.Tags.length; j++){
-    html += `<div class="tagContainer">
-                <p class="tags">${tagsName[j]}</p></div>`;
+                <h2 class="homeTitle">${titleName}</h2>
+                <img class="profilePicture" src="https://raw.githubusercontent.com/imsern/portfolio/main/Logo.png" alt="Profile picture">
+                    <hr>
+                    <div class="homeTagsContainer">`;
+            for (j = 0; j < newItem.Tags.length; j++){
+            html += `<p class="homeItemTags">${tagsName[j]}</p>
+                `;
 }                
-    html += `<hr class="hrOrange">
-                <p class="homePageDesc">${descInfo}</p>
-            </div>
-        </div>`;
+    html += `</div><hr><p class="homeDesc">${descInfo}</p>
+        </div></div>`;
     }
  html += `</div>`;
  return html;

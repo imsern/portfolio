@@ -1,58 +1,75 @@
-.aboutPageContainer {
-    margin-top: 2vh;
-    min-height: 50vh;
-    width: 30vw;
-    margin-left: 35vw;
-    /* background-color: red; */
-    
 
+.aboutContainer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 70vw;
     display: flex;
-    gap: 1em;
-    flex-direction: row;
     flex-wrap: wrap;
-
+    gap: 5px;
+    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-}
-.aboutPageContainer > * {
-    background-color: rgba(39, 39, 39, 0.61);
-    margin-top: 1vh;
-    border-width: 3px;
-    border-style: solid;
-    border-image: 
-      linear-gradient(
-        to bottom, 
-        rgb(228, 132, 7), 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
-    flex: 1 1 auto;
-    min-height: 30em;
-    min-width: 20em;
-    /* max-width: 33em; */
-    justify-content: center;
-}
-.aboutPageTitle {
-    text-align: center;
-    color: white;
-}
-/* .aboutPageItem:hover {
-    transform: scale(1.05);
-} */
-
-.aboutitemTags{
-    color: rgb(221, 135, 22);
-    display: inline-block;
-    margin-right: 20px;
-    font-weight: bold;
+    align-items: center;
     
 }
-.aboutitemTags:hover{
-    transform: scale(1.2);
-    cursor: pointer;
+.aboutItemContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 30vw;
+    min-height: 60vh;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(31, 28, 28, 0.637);
+    border-radius: 10px;
 }
-.aboutPageDesc{
-    font-size: 1.2em;
-    margin-top: 50px;
+.aboutTitle{
     color: white;
     text-align: center;
+}
+.profilePicture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    align-self: center;
+}
+.aboutItem{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 1em;
+    color: white;
+    text-align: center;
+}
+.aboutTagsContainer{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aboutItemTags{
+    color: orange;
+    font-weight: bold;
+    font-size: 0.8em;
+    
+}
+.aboutItemTags:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+hr {
+    width: 100%;
+    border: 0.1em solid transparent;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(214, 214, 214, 0.267),rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+}
+.aboutDesc{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+@media (max-width: 725px){
+    .aboutContainer{
+        margin-top: 50px;
+    }
 }

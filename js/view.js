@@ -29,12 +29,12 @@ function viewSelector(){
 function navBar(){
     let html = `
     <header>
-     <h1 class="logo">kikIT</h1>
+        <h1 class="logo">kikIT</h1>
         <div class="headerContainer">
-            <button class="navBar" onclick="changeView('Home')">Home</button>
-            <button class="navBar" onclick="changeView('Portfolio')">Portfolio</button>
-            <button class="navBar" onclick="changeView('About')">About</button>
-            <button class="navBar" onclick="changeView('Contact')">Contact</button>
+        <button class="navBar" onclick="changeView('Home')">Home</button>
+        <button class="navBar" onclick="changeView('Portfolio')">Portfolio</button>
+        <button class="navBar" onclick="changeView('About')">About</button>
+        <button class="navBar" onclick="changeView('Contact')">Contact</button>
         </div>
     </header>
     `; 
