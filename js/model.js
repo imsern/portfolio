@@ -5,10 +5,32 @@ const model = {
 		Content: [
 			{
 				Title: {
-					txt: "Home Page!",
-					Tags: ["Lorem ", "ipsum ", "dolor ", "consectetur"],
+					txt: "Hello World!",
+					Tags: [
+						{
+							id: 1,
+							Tag: "LinkedIN",
+							linkedPage:
+								"https://www.linkedin.com/in/kristoffer-knutsen-9ab3ba1b4/",
+						},
+						{
+							id: 1,
+							Tag: "Github",
+							linkedPage: "https://github.com/imsern",
+						},
+						{
+							id: 1,
+							Tag: "About me",
+							linkedPage: "",
+						},
+						{
+							id: 1,
+							Tag: "My projects",
+							linkedPage: "",
+						},
+					],
 					Description:
-						"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere. Iusto asperiores id tempore repudiandae neque excepturi, voluptas minima debitis quia inventore hic nulla ipsam esse molestias nam ipsum ratione blanditiis corrupti illo commodi accusantium impedit sequi aliquid.",
+						"My name is Kristoffer Knutsen. I am just a guy from Norway currently working on becoming a front-end/full stack developer.<br/><br/><br/> This page is currently under development",
 				},
 			},
 		],

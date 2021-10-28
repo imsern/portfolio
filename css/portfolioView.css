@@ -25,6 +25,8 @@
 	justify-content: center;
 	background-color: rgba(31, 28, 28, 0.637);
 	border-radius: 10px;
+	border-right: 4px solid rgba(26, 26, 26, 0.466);
+	border-bottom: 4px solid rgba(26, 26, 26, 0.466);
 }
 .portfolioTitle {
 	color: white;

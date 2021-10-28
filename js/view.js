@@ -1,35 +1,38 @@
-function viewSelector(){
-    let html = navBar();
-    const app = document.getElementById('app');
+function viewSelector() {
+	let html = navBar();
+	const app = document.getElementById("app");
 
-    switch (model.currentPage) {
-        case 'Home':
-            html += homeView();
-            break;
-        
-        case 'Portfolio':
-            html += portfolioView();
-            break;
+	switch (model.currentPage) {
+		case "Home":
+			html += homeView();
+			break;
 
-        case 'About':
-            html += aboutView();
-            break;
+		case "Portfolio":
+			html += portfolioView();
+			break;
 
-        case 'Contact':
-            html += contactView();
-            break;
+		case "About":
+			html += aboutView();
+			break;
 
-        default:
-            html = noPageFound();
-    }
+		case "Contact":
+			html += contactView();
+			break;
 
-    app.innerHTML = html;
+		default:
+			html = noPageFound();
+	}
+
+	app.innerHTML = html;
 }
 
-function navBar(){
-    let html = `
+function navBar() {
+	let html = `
     <header>
-        <h1 class="logo">kikIT</h1>
+        <div class="logo">
+            <h1>kik</h1>
+            <h1 style="color:orange">IT</h1>
+        </div>
         <div class="headerContainer">
         <button class="navBar" onclick="changeView('Home')">Home</button>
         <button class="navBar" onclick="changeView('Portfolio')">Portfolio</button>
@@ -37,15 +40,14 @@ function navBar(){
         <button class="navBar" onclick="changeView('Contact')">Contact</button>
         </div>
     </header>
-    `; 
+    `;
 
-    return html;
+	return html;
 }
 
-function noPageFound(){
-    let html = `
+function noPageFound() {
+	let html = `
     404! Page not found!`;
 
-    return html;
+	return html;
 }
-
