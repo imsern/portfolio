@@ -81,6 +81,12 @@ hr {
 	flex-wrap: wrap;
 	height: 150px;
 }
+.hobbyContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100px;
+}
 .aboutList {
 	font-weight: lighter;
 }

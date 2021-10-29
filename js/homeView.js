@@ -6,20 +6,26 @@ function homeView() {
 		const titleName = newItem.txt;
 		const tagsName = newItem.Tags;
 		const descInfo = newItem.Description;
+		const profileImg = contentLoop[i].Title.profileImg;
 
-		html += `
-        <div class="homeItemContainer">
+		html += `<div class="homeItemContainer">
             <div class="homeItem">
-                <h2 class="homeTitle">${titleName}</h2>
-                <img class="profilePicture" src="https://github.com/imsern/portfolio/blob/main/profile.jpg" alt="Profile picture">
-                    <hr>
-                    <div class="homeTagsContainer">`;
+                <h2 class="homeTitle">${titleName}</h2>`;
+
+		html += `<img class="profilePicture" src="${profileImg}" alt="Profile picture">`;
+
+		// TAGS
+		html += `<hr>`;
+		html += `<div class="homeTagsContainer">`;
 		for (j = 0; j < newItem.Tags.length; j++) {
-			html += `<p class="homeItemTags" onmousedown="clickedTag(event, ${i}, ${j})">${tagsName[j].Tag}</p>
-                `;
+			html += `<p class="homeItemTags" onmousedown="homeTag(event, ${i}, ${j})">${tagsName[j].Tag}</p>`;
 		}
-		html += `</div><hr><p class="homeDesc">${descInfo}</p>
-        </div></div>`;
+		html += `</div>`;
+		html += `<hr>`;
+
+		html += `<p class="homeDesc">${descInfo}</p>`;
+
+		html += `</div></div>`;
 	}
 	html += `</div>`;
 	return html;

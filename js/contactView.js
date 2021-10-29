@@ -6,20 +6,26 @@ function contactView() {
 		const titleName = newItem.txt;
 		const tagsName = newItem.Tags;
 		const descInfo = newItem.Description;
+		const profileImg = contentLoop[i].Title.profileImg;
 
-		html += `
-        <div class="contactItemContainer">
+		html += `<div class="contactItemContainer">
             <div class="contactItem">
-                <h2 class="contactTitle">${titleName}</h2>
-                <img class="profilePicture" src="https://raw.githubusercontent.com/imsern/portfolio/main/Logo.png" alt="Profile picture">
-                    <hr>
-                    <div class="contactTagsContainer">`;
+                <h2 class="contactTitle">${titleName}</h2>`;
+
+		html += `<hr>`;
+
+		html += `<p class="contactDesc">${descInfo}</p>`;
+
+		// TAGS
+		html += `<hr>`;
+		html += `<div class="contactTagsContainer">`;
 		for (j = 0; j < newItem.Tags.length; j++) {
-			html += `<p class="contactItemTags">${tagsName[j]}</p>
-                `;
+			html += `<p class="contactItemTags" onmousedown="contactTag(event, ${i}, ${j})">${tagsName[j].Tag}</p>`;
 		}
-		html += `</div><hr><p class="contactDesc">${descInfo}</p>
-        </div></div>`;
+		html += `</div>`;
+		html += `<hr>`;
+
+		html += `</div></div>`;
 	}
 	html += `</div>`;
 	return html;

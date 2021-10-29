@@ -18,19 +18,31 @@ function aboutView() {
 
 		html += `<p class="aboutDesc">${descInfo}</p>`;
 
+		// EXPERIENCE SECTION
 		html += `<hr>`;
-		html += `<h2 class="subTitle">Experiences</h2><hr>`;
+		html += `<h2 class="subTitle">Experiences</h2>`;
 		html += `<div class="expContainer">`;
-		for (y = 0; y < newItem.Experience.length; y++) {
-			let expList = newItem.Experience[y];
+		for (j = 0; j < newItem.Experience.length; j++) {
+			let expList = newItem.Experience[j];
 			html += `<p class="aboutList">${expList}</p>`;
 		}
 		html += `</div>`;
 
+		// HOBBIES SECTION
+		html += `<hr>`;
+		html += `<h2 class="subTitle">Hobbies</h2>`;
+		html += `<div class="hobbyContainer">`;
+		for (j = 0; j < newItem.Hobbies.length; j++) {
+			let hobbyList = newItem.Hobbies[j];
+			html += `<p class="aboutList">${hobbyList}</p>`;
+		}
+		html += `</div>`;
+
+		// TAGS
 		html += `<hr>`;
 		html += `<div class="aboutTagsContainer">`;
 		for (j = 0; j < newItem.Tags.length; j++) {
-			html += `<p class="homeItemTags" onmousedown="clickedTag(event, ${i}, ${j})">${tagsName[j].Tag}</p>`;
+			html += `<p class="homeItemTags" onmousedown="aboutTag(event, ${i}, ${j})">${tagsName[j].Tag}</p>`;
 		}
 		html += `</div>`;
 		html += `<hr>`;

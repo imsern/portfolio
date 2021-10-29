@@ -14,7 +14,8 @@ function goToProject(e, value) {
 	}
 }
 
-function clickedTag(e, i, j) {
+// HOME PAGE TAG FUNCTION
+function homeTag(e, i, j) {
 	let tags = model.Homepageview.Content[i].Title.Tags[j];
 
 	if (tags.LocalPage) {
@@ -28,4 +29,32 @@ function clickedTag(e, i, j) {
 	}
 }
 
-// https://www.linkedin.com/in/kristoffer-knutsen-9ab3ba1b4/
+//ABOUT PAGE TAG FUNCTION
+function aboutTag(e, i, j) {
+	let tags = model.Aboutpageview.Content[i].Title.Tags[j];
+
+	if (tags.LocalPage) {
+		changeView(tags.LocalPage);
+		return;
+	}
+	if (e.button === 1) {
+		window.open(tags.linkedPage, "_blank");
+	} else {
+		window.location.href = tags.linkedPage;
+	}
+}
+
+//CONTACT PAGE TAG FUNCTION
+function contactTag(e, i, j) {
+	let tags = model.Contactpageview.Content[i].Title.Tags[j];
+
+	if (tags.LocalPage) {
+		changeView(tags.LocalPage);
+		return;
+	}
+	if (e.button === 1) {
+		window.open(tags.linkedPage, "_blank");
+	} else {
+		window.location.href = tags.linkedPage;
+	}
+}
