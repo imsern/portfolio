@@ -30,7 +30,7 @@ const model = {
 						},
 					],
 					Description:
-						"My name is Kristoffer Knutsen. I am just a guy from Norway currently working on becoming a front-end/full stack developer.<br/><br/><br/> This page is currently under development",
+						"My name is Kristoffer Knutsen. I am currently working on becoming a front-end/full stack developer.<br/><br/><br/> This page is currently under development",
 				},
 			},
 		],
@@ -111,7 +111,9 @@ const model = {
 					txt: "About Page!",
 					Tags: ["Lorem ", "ipsum ", "dolor ", "consectetur"],
 					Description:
-						"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere. Iusto asperiores id tempore repudiandae neque excepturi, voluptas minima debitis quia inventore hic nulla ipsam esse molestias nam ipsum ratione blanditiis corrupti illo commodi accusantium impedit sequi aliquid.",
+						"29 years old from Norway. Starting to learn coding with the goal of beein a Fullstack/front-end developer.<br/><br/> Started my journey of coding in August 2021, when I joined Get Academy's 6month course in coding.",
+					Experience: ["Vue.js", "Node.js", "JavaScript", "HTML", "CSS"],
+					Hobbies: ["Coding", "Socializing", "Gaming", "Fishing"],
 				},
 			},
 		],

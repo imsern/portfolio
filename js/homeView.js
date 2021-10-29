@@ -11,7 +11,7 @@ function homeView() {
         <div class="homeItemContainer">
             <div class="homeItem">
                 <h2 class="homeTitle">${titleName}</h2>
-                <img class="profilePicture" src="/Images/profile.jpg" alt="Profile picture">
+                <img class="profilePicture" src="https://raw.githubusercontent.com/imsern/portfolio/main/profile.png" alt="Profile picture">
                     <hr>
                     <div class="homeTagsContainer">`;
 		for (j = 0; j < newItem.Tags.length; j++) {
