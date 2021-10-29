@@ -12,7 +12,7 @@ function homeView() {
             <div class="homeItem">
                 <h2 class="homeTitle">${titleName}</h2>`;
 
-		html += `<img class="profilePicture" src="/Images/profile.png" alt="Profile picture">`;
+		html += `<img class="profilePicture" src="https://github.com/imsern/portfolio/blob/main/profile.png" alt="Profile picture">`;
 
 		// TAGS
 		html += `<hr>`;

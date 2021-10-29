@@ -12,7 +12,7 @@ function aboutView() {
             <div class="aboutItem">
                 <h2 class="aboutTitle">${titleName}</h2>`;
 
-		html += `<img class="profilePicture" src="/profile.png" alt="Profile picture">`;
+		html += `<img class="profilePicture" src="https://github.com/imsern/portfolio/blob/main/profile.png" alt="Profile picture">`;
 
 		html += `<hr>`;
 
