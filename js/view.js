@@ -34,10 +34,10 @@ function navBar() {
             <h1 style="color:orange">IT</h1>
         </div>
         <div class="headerContainer">
-        <button class="navBar" onclick="changeView('Home')">Home</button>
-        <button class="navBar" onclick="changeView('Portfolio')">Portfolio</button>
-        <button class="navBar" onclick="changeView('About')">About</button>
-        <button class="navBar" onclick="changeView('Contact')">Contact</button>
+        	<button class="navBar" onclick="changeView('Home')">Home</button>
+        	<button class="navBar" onclick="changeView('Portfolio')">Portfolio</button>
+        	<button class="navBar" onclick="changeView('About')">About</button>
+        	<button class="navBar" onclick="changeView('Contact')">Contact</button>
         </div>
     </header>
     `;

@@ -14,19 +14,19 @@ const model = {
 								"https://www.linkedin.com/in/kristoffer-knutsen-9ab3ba1b4/",
 						},
 						{
-							id: 1,
+							id: 2,
 							Tag: "Github",
 							linkedPage: "https://github.com/imsern",
 						},
 						{
-							id: 1,
+							id: 3,
 							Tag: "About me",
-							linkedPage: "",
+							LocalPage: "About",
 						},
 						{
-							id: 1,
+							id: 4,
 							Tag: "My projects",
-							linkedPage: "",
+							LocalPage: "Portfolio",
 						},
 					],
 					Description:

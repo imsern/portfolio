@@ -1,4 +1,4 @@
-.aboutContainer {
+.contactContainer {
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -12,7 +12,7 @@
 	justify-content: center;
 	align-items: center;
 }
-.aboutItemContainer {
+.contactItemContainer {
 	display: flex;
 	flex: 0 1 1em;
 	flex-wrap: wrap;
@@ -25,7 +25,7 @@
 	border-right: 4px solid rgba(26, 26, 26, 0.466);
 	border-bottom: 4px solid rgba(26, 26, 26, 0.466);
 }
-.aboutTitle {
+.contactTitle {
 	color: white;
 	text-align: center;
 }
@@ -35,24 +35,24 @@
 	border-radius: 50%;
 	align-self: center;
 }
-.aboutItem {
+.contactItem {
 	display: flex;
 	flex-direction: column;
 	flex: 1 1 1em;
 	color: white;
 	text-align: center;
 }
-.aboutTagsContainer {
+.contactTagsContainer {
 	display: inline-flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-.aboutItemTags {
+.contactItemTags {
 	color: orange;
 	font-weight: bold;
 	font-size: 0.8em;
 }
-.aboutItemTags:hover {
+.contactItemTags:hover {
 	cursor: pointer;
 	transform: scale(1.2);
 }
@@ -67,14 +67,14 @@ hr {
 	);
 	border-image-slice: 1;
 }
-.aboutDesc {
+.contactDesc {
 	color: white;
 	text-align: center;
 	font-size: 1.3em;
 }
 
 @media (max-width: 725px) {
-	.aboutContainer {
+	.contactContainer {
 		margin-top: 50px;
 	}
 }

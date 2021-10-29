@@ -5,26 +5,25 @@ function changeView(selectedPage) {
 }
 
 function goToProject(e, value) {
+	const referencePage = model.Portfolioview.Content[value].Title.ReferencePage;
 	if (e.button === 1) {
-		window.open(
-			model.Portfolioview.Content[value].Title.ReferencePage,
-			"_blank"
-		);
+		window.open(referencePage, "_blank");
 	} else {
-		window.location.href =
-			model.Portfolioview.Content[value].Title.ReferencePage;
+		window.location.href = referencePage;
 	}
 }
 
-function clickedTag(e, id, value) {
+function clickedTag(e, i, j) {
+	let tags = model.Homepageview.Content[i].Title.Tags[j];
+
+	if (tags.LocalPage) {
+		changeView(tags.LocalPage);
+		return;
+	}
 	if (e.button === 1) {
-		window.open(
-			model.Homepageview.Content[id].Title.Tags[value].linkedPage,
-			"_blank"
-		);
+		window.open(tags.linkedPage, "_blank");
 	} else {
-		window.location.href =
-			model.Homepageview.Content[id].Title.Tags[value].linkedPage;
+		window.location.href = tags.linkedPage;
 	}
 }
 
