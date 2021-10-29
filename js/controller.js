@@ -6,6 +6,7 @@ function changeView(selectedPage) {
 
 function goToProject(e, value) {
 	const referencePage = model.Portfolioview.Content[value].Title.ReferencePage;
+
 	if (e.button === 1) {
 		window.open(referencePage, "_blank");
 	} else {

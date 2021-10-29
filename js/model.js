@@ -108,11 +108,35 @@ const model = {
 		Content: [
 			{
 				Title: {
+					profileImg:
+						"https://github.com/imsern/portfolio/blob/main/profile.jpg",
 					txt: "About Page!",
-					Tags: ["Lorem ", "ipsum ", "dolor ", "consectetur"],
+					Tags: [
+						{
+							id: 1,
+							Tag: "LinkedIN",
+							linkedPage:
+								"https://www.linkedin.com/in/kristoffer-knutsen-9ab3ba1b4/",
+						},
+						{
+							id: 2,
+							Tag: "Github",
+							linkedPage: "https://github.com/imsern",
+						},
+						{
+							id: 3,
+							Tag: "About me",
+							LocalPage: "About",
+						},
+						{
+							id: 4,
+							Tag: "My projects",
+							LocalPage: "Portfolio",
+						},
+					],
 					Description:
 						"29 years old from Norway. Starting to learn coding with the goal of beein a Fullstack/front-end developer.<br/><br/> Started my journey of coding in August 2021, when I joined Get Academy's 6month course in coding.",
-					Experience: ["Vue.js", "Node.js", "JavaScript", "HTML", "CSS"],
+					Experience: ["Vue.js", "Node.js", "C#", "JavaScript", "HTML", "CSS"],
 					Hobbies: ["Coding", "Socializing", "Gaming", "Fishing"],
 				},
 			},
@@ -123,7 +147,29 @@ const model = {
 			{
 				Title: {
 					txt: "Contact Page!",
-					Tags: ["Lorem ", "ipsum ", "dolor ", "consectetur"],
+					Tags: [
+						{
+							id: 1,
+							Tag: "LinkedIN",
+							linkedPage:
+								"https://www.linkedin.com/in/kristoffer-knutsen-9ab3ba1b4/",
+						},
+						{
+							id: 2,
+							Tag: "Github",
+							linkedPage: "https://github.com/imsern",
+						},
+						{
+							id: 3,
+							Tag: "About me",
+							LocalPage: "About",
+						},
+						{
+							id: 4,
+							Tag: "My projects",
+							LocalPage: "Portfolio",
+						},
+					],
 					Description:
 						"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores pariatur, sapiente libero, deleniti rem dolore maiores inventore impedit exercitationem in facere. Iusto asperiores id tempore repudiandae neque excepturi, voluptas minima debitis quia inventore hic nulla ipsam esse molestias nam ipsum ratione blanditiis corrupti illo commodi accusantium impedit sequi aliquid.",
 				},

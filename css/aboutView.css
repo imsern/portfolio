@@ -16,7 +16,7 @@
 	display: flex;
 	flex: 0 1 1em;
 	flex-wrap: wrap;
-	height: 500px;
+	height: 900px;
 	min-width: 600px;
 	flex-direction: row;
 	justify-content: center;
@@ -70,7 +70,19 @@ hr {
 .aboutDesc {
 	color: white;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.1em;
+}
+.subTitle {
+	color: orange;
+}
+.expContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 150px;
+}
+.aboutList {
+	font-weight: lighter;
 }
 
 @media (max-width: 725px) {
