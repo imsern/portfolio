@@ -104,6 +104,15 @@ const model = {
 					ReferencePage: "https://imsern.github.io/snakeGame/",
 				},
 			},
+			{
+				Title: {
+					txt: "New World Resources",
+					tags: ["HTML", "CSS", "Vue js"],
+					Description:
+						"A small project to learn Vue js basics and implemeting Twitter feed/resources in Vue.",
+					ReferencePage: "https://brave-ritchie-d408fa.netlify.app/#/",
+				},
+			},
 		],
 	},
 	Aboutpageview: {
