@@ -171,7 +171,7 @@ const model = {
 						{
 							id: 3,
 							Tag: "Discord",
-							LocalPage: "About",
+							linkedPage: "https://discordapp.com/users/ims#0370/",
 						},
 						{
 							id: 4,
