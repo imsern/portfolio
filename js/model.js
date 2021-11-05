@@ -5,8 +5,7 @@ const model = {
 		Content: [
 			{
 				Title: {
-					profileImg:
-						"https://github.com/imsern/portfolio/blob/main/profile.jpg",
+					profileImg: "profile.png",
 					txt: "Hello World!",
 					Tags: [
 						{
@@ -119,8 +118,7 @@ const model = {
 		Content: [
 			{
 				Title: {
-					profileImg:
-						"https://github.com/imsern/portfolio/blob/main/profile.jpg",
+					profileImg: "profile.png",
 					txt: "About Me",
 					Tags: [
 						{
