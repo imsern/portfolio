@@ -12,7 +12,7 @@ function homeView() {
             <div class="homeItem">
                 <h2 class="homeTitle">${titleName}</h2>`;
 
-		html += `<img class="profilePicture" src="${model.Homepageview.Content[0].Title.profileImg}" alt="Profile picture">`;
+		html += `<img class="profilePicture" src="${profileImg}" alt="Profile picture">`;
 
 		// TAGS
 		html += `<hr>`;
