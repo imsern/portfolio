@@ -165,21 +165,22 @@ const model = {
 						},
 						{
 							id: 2,
-							Tag: "Facebook",
+							Tag: "Github",
 							linkedPage: "https://github.com/imsern",
 						},
 						{
 							id: 3,
 							Tag: "Discord",
-							linkedPage: "https://discordapp.com/users/ims#0370/",
+							linkedPage: "https://discordapp.com/users/207961141496905729/",
 						},
 						{
 							id: 4,
-							Tag: "My projects",
-							LocalPage: "Portfolio",
+							Tag: "Facebook",
+							linkedPage: "https://www.facebook.com/imsaern",
 						},
 					],
-					Description: "All kontakt info vil komme her asap!",
+					Description:
+						"I am open for any questions you must have! You can reach me on any of the pages linked below",
 				},
 			},
 		],
