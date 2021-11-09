@@ -41,7 +41,29 @@ const model = {
 			{
 				Title: {
 					txt: "Lights Out",
-					tags: ["Get Academy", "HTML", "CSS", "JavaScript"],
+					tags: [
+						{
+							id: 1,
+							Tag: "Get Academy",
+							linkedPage: "https://www.getacademy.no/",
+						},
+						{
+							id: 2,
+							Tag: "HTML",
+							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+						},
+						{
+							id: 3,
+							Tag: "CSS",
+							linkedPage:
+								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+						},
+						{
+							id: 4,
+							Tag: "JavaScript",
+							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+						},
+					],
 					Description:
 						"Team Unicorn - Modul 1, made by Christian, Kenneth, Kristoffer and Stian",
 					ReferencePage: "https://imsern.github.io/The-unicorns/NyesteMod/",
@@ -50,7 +72,29 @@ const model = {
 			{
 				Title: {
 					txt: "Puzzle",
-					tags: ["Get Academy", "HTML", "CSS", "JavaScript"],
+					tags: [
+						{
+							id: 1,
+							Tag: "Get Academy",
+							linkedPage: "https://www.getacademy.no/",
+						},
+						{
+							id: 2,
+							Tag: "HTML",
+							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+						},
+						{
+							id: 3,
+							Tag: "CSS",
+							linkedPage:
+								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+						},
+						{
+							id: 4,
+							Tag: "JavaScript",
+							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+						},
+					],
 					Description:
 						"Team Unicorn - Modul 1, made by Christian, Kenneth, Kristoffer and Stian",
 					ReferencePage:
@@ -60,7 +104,29 @@ const model = {
 			{
 				Title: {
 					txt: "Word Chooser",
-					tags: ["Get Academy", "HTML", "CSS", "JavaScript"],
+					tags: [
+						{
+							id: 1,
+							Tag: "Get Academy",
+							linkedPage: "https://www.getacademy.no/",
+						},
+						{
+							id: 2,
+							Tag: "HTML",
+							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+						},
+						{
+							id: 3,
+							Tag: "CSS",
+							linkedPage:
+								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+						},
+						{
+							id: 4,
+							Tag: "JavaScript",
+							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+						},
+					],
 					Description:
 						"Team Unicorn - Modul 1, made by Christian, Kenneth, Kristoffer and Stian",
 					ReferencePage: "https://imsern.github.io/The-unicorns/WordChooser/",
@@ -69,7 +135,29 @@ const model = {
 			{
 				Title: {
 					txt: "Rock, Paper, Scissors",
-					tags: ["Get Academy", "HTML", "CSS", "JavaScript"],
+					tags: [
+						{
+							id: 1,
+							Tag: "Get Academy",
+							linkedPage: "https://www.getacademy.no/",
+						},
+						{
+							id: 2,
+							Tag: "HTML",
+							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+						},
+						{
+							id: 3,
+							Tag: "CSS",
+							linkedPage:
+								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+						},
+						{
+							id: 4,
+							Tag: "JavaScript",
+							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+						},
+					],
 					Description:
 						"Team Unicorn - Modul 1, made by Christian, Kenneth, Kristoffer and Stian",
 					ReferencePage:
@@ -79,7 +167,29 @@ const model = {
 			{
 				Title: {
 					txt: "Morse Code Translator",
-					tags: ["Get Academy", "HTML", "CSS", "JavaScript"],
+					tags: [
+						{
+							id: 1,
+							Tag: "Get Academy",
+							linkedPage: "https://www.getacademy.no/",
+						},
+						{
+							id: 2,
+							Tag: "HTML",
+							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+						},
+						{
+							id: 3,
+							Tag: "CSS",
+							linkedPage:
+								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+						},
+						{
+							id: 4,
+							Tag: "JavaScript",
+							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+						},
+					],
 					Description:
 						"Team Unicorn - Modul 1, made by Christian, Kenneth, Kristoffer and Stian",
 					ReferencePage:
@@ -89,7 +199,29 @@ const model = {
 			{
 				Title: {
 					txt: "Bossfoit",
-					tags: ["Get Academy", "HTML", "CSS", "JavaScript"],
+					tags: [
+						{
+							id: 1,
+							Tag: "Get Academy",
+							linkedPage: "https://www.getacademy.no/",
+						},
+						{
+							id: 2,
+							Tag: "HTML",
+							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+						},
+						{
+							id: 3,
+							Tag: "CSS",
+							linkedPage:
+								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+						},
+						{
+							id: 4,
+							Tag: "JavaScript",
+							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+						},
+					],
 					Description:
 						"Team Unicorn - Modul 1, made by Christian, Kenneth, Kristoffer and Stian",
 					ReferencePage: "https://imsern.github.io/The-unicorns/bossfight/",
@@ -98,7 +230,24 @@ const model = {
 			{
 				Title: {
 					txt: "Snake Game",
-					tags: ["HTML", "CSS", "JavaScript"],
+					tags: [
+						{
+							id: 1,
+							Tag: "HTML",
+							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+						},
+						{
+							id: 2,
+							Tag: "CSS",
+							linkedPage:
+								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+						},
+						{
+							id: 3,
+							Tag: "JavaScript",
+							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+						},
+					],
 					Description: "Side project trying to recreate the Snake game. ",
 					ReferencePage: "https://imsern.github.io/snakeGame/",
 				},
@@ -106,7 +255,24 @@ const model = {
 			{
 				Title: {
 					txt: "New World Resources",
-					tags: ["HTML", "CSS", "Vue js"],
+					tags: [
+						{
+							id: 1,
+							Tag: "HTML",
+							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+						},
+						{
+							id: 2,
+							Tag: "CSS",
+							linkedPage:
+								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+						},
+						{
+							id: 2,
+							Tag: "Vue js",
+							linkedPage: "https://vuejs.org/",
+						},
+					],
 					Description:
 						"A small project to learn Vue js basics and implemeting Twitter feed/resources in Vue.",
 					ReferencePage: "https://brave-ritchie-d408fa.netlify.app/#/",
@@ -145,8 +311,14 @@ const model = {
 					],
 					Description:
 						"29 years old from Norway. Starting to learn coding with the goal of becoming a Fullstack/front-end developer.<br/><br/> Started my journey of coding in August 2021, when I joined Get Academy's 6month course in coding.",
-					Experience: ["Vue.js", "Node.js", "C#", "JavaScript", "HTML", "CSS"],
-					Hobbies: ["Coding", "Socializing", "Gaming", "Fishing"],
+					Experience: ["Vue.js", "JavaScript", "HTML", "CSS"],
+					OtherExp: [
+						"Adobe After Effects",
+						"Adobe Premiere",
+						"Adobe Photoshop",
+						"Autodesk Maya",
+					],
+					Hobbies: ["Coding", "Socializing", "Gaming", "Fishing", "VFX"],
 				},
 			},
 		],

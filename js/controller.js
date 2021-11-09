@@ -58,3 +58,19 @@ function contactTag(e, i, j) {
 		window.location.href = tags.linkedPage;
 	}
 }
+
+// PORTFOLIO PAGE TAG FUNCTION
+
+function portTag(e, i, j) {
+	let tags = model.Portfolioview.Content[i].Title.tags[j];
+
+	if (tags.LocalPage) {
+		changeView(tags.LocalPage);
+		return;
+	}
+	if (e.button === 1) {
+		window.open(tags.linkedPage, "_blank");
+	} else {
+		window.location.href = tags.linkedPage;
+	}
+}

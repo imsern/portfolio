@@ -18,13 +18,23 @@ function aboutView() {
 
 		html += `<p class="aboutDesc">${descInfo}</p>`;
 
-		// EXPERIENCE SECTION
+		// CODING EXPERIENCE SECTION
 		html += `<hr>`;
-		html += `<h2 class="subTitle">Experiences</h2>`;
+		html += `<h2 class="subTitle">Coding Experiences</h2>`;
 		html += `<div class="expContainer">`;
 		for (j = 0; j < newItem.Experience.length; j++) {
 			let expList = newItem.Experience[j];
 			html += `<p class="aboutList">${expList}</p>`;
+		}
+		html += `</div>`;
+
+		// OTHER EXPERIENCE
+		html += `<hr>`;
+		html += `<h2 class="subTitle">Other Experiences</h2>`;
+		html += `<div class="expContainer">`;
+		for (j = 0; j < newItem.OtherExp.length; j++) {
+			let othExpList = newItem.OtherExp[j];
+			html += `<p class="aboutList">${othExpList}</p>`;
 		}
 		html += `</div>`;
 
