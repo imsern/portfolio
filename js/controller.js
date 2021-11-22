@@ -63,7 +63,7 @@ function contactTag(e, i, j) {
 
 function portTag(e, i, j) {
 	let tags = model.Portfolioview.Content[i].Title.tags[j];
-
+	if (tags.linkedPage == '') {return}
 	if (tags.LocalPage) {
 		changeView(tags.LocalPage);
 		return;

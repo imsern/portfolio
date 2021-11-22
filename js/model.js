@@ -50,18 +50,17 @@ const model = {
 						{
 							id: 2,
 							Tag: "HTML",
-							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+							linkedPage: "",
 						},
 						{
 							id: 3,
 							Tag: "CSS",
-							linkedPage:
-								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+							linkedPage: "",
 						},
 						{
 							id: 4,
 							Tag: "JavaScript",
-							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+							linkedPage: "",
 						},
 					],
 					Description:
@@ -81,18 +80,17 @@ const model = {
 						{
 							id: 2,
 							Tag: "HTML",
-							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+							linkedPage: "",
 						},
 						{
 							id: 3,
 							Tag: "CSS",
-							linkedPage:
-								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+							linkedPage: "",
 						},
 						{
 							id: 4,
 							Tag: "JavaScript",
-							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+							linkedPage: "",
 						},
 					],
 					Description:
@@ -113,18 +111,17 @@ const model = {
 						{
 							id: 2,
 							Tag: "HTML",
-							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+							linkedPage: "",
 						},
 						{
 							id: 3,
 							Tag: "CSS",
-							linkedPage:
-								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+							linkedPage: "",
 						},
 						{
 							id: 4,
 							Tag: "JavaScript",
-							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+							linkedPage: "",
 						},
 					],
 					Description:
@@ -144,18 +141,17 @@ const model = {
 						{
 							id: 2,
 							Tag: "HTML",
-							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+							linkedPage: "",
 						},
 						{
 							id: 3,
 							Tag: "CSS",
-							linkedPage:
-								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+							linkedPage: "",
 						},
 						{
 							id: 4,
 							Tag: "JavaScript",
-							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+							linkedPage: "",
 						},
 					],
 					Description:
@@ -176,18 +172,17 @@ const model = {
 						{
 							id: 2,
 							Tag: "HTML",
-							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+							linkedPage: "",
 						},
 						{
 							id: 3,
 							Tag: "CSS",
-							linkedPage:
-								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+							linkedPage: "",
 						},
 						{
 							id: 4,
 							Tag: "JavaScript",
-							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+							linkedPage: "",
 						},
 					],
 					Description:
@@ -208,18 +203,17 @@ const model = {
 						{
 							id: 2,
 							Tag: "HTML",
-							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+							linkedPage: "",
 						},
 						{
 							id: 3,
 							Tag: "CSS",
-							linkedPage:
-								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+							linkedPage: "",
 						},
 						{
 							id: 4,
 							Tag: "JavaScript",
-							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+							linkedPage: "",
 						},
 					],
 					Description:
@@ -234,18 +228,17 @@ const model = {
 						{
 							id: 1,
 							Tag: "HTML",
-							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+							linkedPage: "",
 						},
 						{
 							id: 2,
 							Tag: "CSS",
-							linkedPage:
-								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+							linkedPage: "",
 						},
 						{
 							id: 3,
 							Tag: "JavaScript",
-							linkedPage: "https://no.wikipedia.org/wiki/JavaScript",
+							linkedPage: "",
 						},
 					],
 					Description: "Side project trying to recreate the Snake game. ",
@@ -259,13 +252,12 @@ const model = {
 						{
 							id: 1,
 							Tag: "HTML",
-							linkedPage: "https://no.wikipedia.org/wiki/HTML",
+							linkedPage: "",
 						},
 						{
 							id: 2,
 							Tag: "CSS",
-							linkedPage:
-								"https://no.wikipedia.org/wiki/Cascading_Style_Sheets",
+							linkedPage: "",
 						},
 						{
 							id: 2,

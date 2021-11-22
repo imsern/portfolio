@@ -9,8 +9,7 @@ function portfolioView() {
 		html += `
         <div class="portfolioItemContainer">
             <div class="portfolioItem" >
-                <h2 class="portfolioTitle">${titleName}</h2>
-                <img class="projectPicture" onmousedown="goToProject(event, ${i})" src="https://raw.githubusercontent.com/imsern/portfolio/main/Logo.png" alt="Project picture">
+                <h2 class="portfolioTitle" onmousedown="goToProject(event, ${i})">${titleName}</h2>
                     <hr>
                     <div class="portfolioTagsContainer">`;
 		for (j = 0; j < model.Portfolioview.Content[i].Title.tags.length; j++) {
