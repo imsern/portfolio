@@ -52,7 +52,7 @@ class Particle {
 	handleParticles() {
 		particles.forEach((element) => {
 			let dis = dist(this.x, this.y, element.x, element.y);
-			if (dis < 55) {
+			if (dis < 75 && dis > 30) {
                 strokeWeight(0.1)
 				stroke(this.color);
 				line(this.x, this.y, element.x, element.y);
