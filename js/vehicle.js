@@ -3,8 +3,8 @@ function Vehicle(x, y) {
 	this.velocity = createVector(0, -2);
 	this.position = createVector(x, y);
 	this.r = 4;
-	this.maxspeed = 4;
-	this.maxforce = 0.1;
+	this.maxspeed = 10;
+	this.maxforce = 1;
 
 	// Method to update location
 	this.update = function () {

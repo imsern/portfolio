@@ -1,4 +1,4 @@
-var vehicles; // VAR ET ARRAY
+var vehicle; // VAR ET ARRAY
 var food = []; //VAR ET ARRAY
 let particles = [];
 
@@ -15,7 +15,9 @@ function setup() {
 function windowResized() {
 	resizeCanvas(windowWidth, windowHeight);
   }
-  
+
+  setInterval(function(){ particles = []; }, 120000);
+
 function draw() {
 	background(0);
 
@@ -25,12 +27,12 @@ function draw() {
 		ellipse(food[i].x, food[i].y, 8, 8);
 	}
 
-	if (random(1) < 0.01) {
+	if (random(1) < 0.02) {
 		var x = random(width);
 		var y = random(height);
 		food.push(createVector(x, y));
 	}
-	for (let i = 0; i < 1; i++) {
+	for (let i = 0; i < 2; i++) {
 		particles.push(new Particle());
 	}
 	for (let i = 0; i < particles.length; i++) {
@@ -39,7 +41,7 @@ function draw() {
 		// particles[i].joinParticles(particles.slice(i));
 		particles[i].handleParticles();
 		particles[i].update();
-		if (particles[i].r <= 1) {
+		if (particles[i].r <= 5) {
 			particles.splice(i, 1);
 			i--;
 		}

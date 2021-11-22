@@ -16,7 +16,7 @@
 	display: flex;
 	flex: 0 1 1em;
 	flex-wrap: wrap;
-	/* height: 1100px; */
+	height: 850px;
 	min-width: 600px;
 	flex-direction: row;
 	justify-content: center;
@@ -24,6 +24,11 @@
 	border-radius: 10px;
 	border-right: 4px solid rgba(26, 26, 26, 0.466);
 	border-bottom: 4px solid rgba(26, 26, 26, 0.466);
+	overflow-x: hidden;
+}
+.aboutItemContainer::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
 }
 .aboutTitle {
 	color: white;

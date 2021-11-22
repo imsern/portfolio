@@ -25,6 +25,7 @@ header {
 	height: 75px;
 	width: 100vw;
 	left: 50%;
+	top: 0;
 	transform: translate(-50%);
 
 	display: flex;
@@ -72,8 +73,8 @@ button {
 	transform: scale(1.1);
 }
 #defaultCanvas0 {
-	position: absolute;
-	background: black;
+	position: sticky;
+	background: rgb(0, 0, 0);
 	height: 100%;
 	width: 100%;
 	top: 0;
