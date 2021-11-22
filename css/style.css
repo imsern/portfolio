@@ -30,7 +30,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(0, 0, 0, 0.281);
+	background-color: rgb(24, 24, 24);
 	border-bottom: 1px solid orange;
 }
 .logo {
@@ -70,6 +70,14 @@ button {
 }
 .logo:hover {
 	transform: scale(1.1);
+}
+#defaultCanvas0 {
+	position: absolute;
+	background: black;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
 
 /* MEDIA TAGS */
