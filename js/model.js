@@ -31,7 +31,7 @@ const model = {
 						},
 					],
 					Description:
-						"My name is Kristoffer Knutsen. I am currently working on becoming a front-end/full stack developer.<br/><br/><br/> This page is currently under development",
+						"My name is Kristoffer Knutsen. I am currently working on becoming a front-end/full stack developer.",
 				},
 			},
 		],
@@ -268,6 +268,31 @@ const model = {
 					Description:
 						"A small project to learn Vue js basics and implemeting Twitter feed/resources in Vue.",
 					ReferencePage: "https://brave-ritchie-d408fa.netlify.app/#/",
+				},
+			},
+			{
+				Title: {
+					txt: "Particle Accelerator",
+					tags: [
+						{
+							id: 1,
+							Tag: "Canvas",
+							linkedPage: "",
+						},
+						{
+							id: 2,
+							Tag: "Javascript",
+							linkedPage: "",
+						},
+						{
+							id: 2,
+							Tag: "p5.js",
+							linkedPage: "https://p5js.org/",
+						},
+					],
+					Description:
+						"Steering algorithm with a particle emitter attached.",
+					ReferencePage: "https://imsern.github.io/particleAccelerator/",
 				},
 			},
 		],

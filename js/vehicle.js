@@ -66,16 +66,5 @@ function Vehicle(x, y) {
 		var gr = color(0, 255, 0);
 		var rd = color(255, 0, 0);
 		var col = lerpColor(rd, gr, this.health);
-
-		// fill(0, 0, 0);
-		// stroke(0, 0, 0);
-		// strokeWeight(1);
-		// beginShape();
-		// vertex(0, -this.r * 2);
-		// vertex(-this.r, this.r * 2);
-		// vertex(this.r, this.r * 2);
-		// endShape(CLOSE);
-
-		// pop();
 	};
 }

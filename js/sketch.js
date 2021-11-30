@@ -1,5 +1,5 @@
-var vehicle; // VAR ET ARRAY
-var food = []; //VAR ET ARRAY
+var vehicle; 
+var food = [];
 let particles = [];
 
 var debug;
@@ -38,7 +38,6 @@ function draw() {
 	for (let i = 0; i < particles.length; i++) {
 		particles[i].createParticle();
 		particles[i].moveParticle();
-		// particles[i].joinParticles(particles.slice(i));
 		particles[i].handleParticles();
 		particles[i].update();
 		if (particles[i].r <= 5) {
@@ -52,30 +51,7 @@ function draw() {
 		hue = 0;
 	}
 	vehicle.eat(food);
-	//vehicle.seek(food);
 	vehicle.update();
 	vehicle.display();
 }
 
-//FØRSTE SKETCH VEHICLE
-// let vehicle;
-// let target;
-
-// function setup() {
-//   createCanvas(600, 600);
-//   vehicle = new Vehicle(100, 100);
-// }
-
-// function draw() {
-//   background(51);
-//   target = createVector(mouseX, mouseY);
-
-//   fill(127);
-//   stroke(200);
-//   strokeWeight(2);
-//   circle(target.x, target.y, 32);
-
-//   vehicle.seek(target);
-//   vehicle.update();
-//   vehicle.show();
-// }
