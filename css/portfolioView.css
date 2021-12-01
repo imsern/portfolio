@@ -3,8 +3,9 @@
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	height: 70vh;
-	width: 85vw;
+	margin-top: 50px;
+	height: 85vh;
+	width: 90vw;
 	min-width: 200px;
 	min-height: 550px;
 	display: flex;
@@ -13,7 +14,12 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start;
+	overflow-y: scroll;
 	/* background-color: red; */
+}
+.portfolioContainer::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
 }
 .portfolioItemContainer {
 	display: flex;
@@ -23,10 +29,10 @@
 	min-width: 400px;
 	flex-direction: row;
 	justify-content: center;
-	background-color: rgba(31, 28, 28, 0.637);
+	background-color: rgba(0, 0, 0, 0.541);
 	border-radius: 10px;
-	border-right: 4px solid rgba(26, 26, 26, 0.466);
-	border-bottom: 4px solid rgba(26, 26, 26, 0.466);
+	/* border-right: 4px solid rgba(26, 26, 26, 0.466);
+	border-bottom: 4px solid rgba(26, 26, 26, 0.466); */
 }
 .portfolioTitle {
 	color: white;
