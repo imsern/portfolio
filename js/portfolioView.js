@@ -5,7 +5,6 @@ function portfolioView() {
 		const newItem = contentLoop[i].Title;
 		const titleName = newItem.txt;
 		const descInfo = newItem.Description;
-		console.log(newItem.ReferencePage);
 		html += `
         <div class="portfolioItemContainer">
             <div class="portfolioItem" >
