@@ -69,13 +69,41 @@ hr {
 }
 .homeDesc {
 	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	color: white;
 	text-align: center;
 	font-size: 1.3em;
 }
-
-@media (max-width: 725px) {
-	.homeContainer {
-		margin-top: 50px;
+@media screen and (max-width: 1024px) {
+	.homeItemContainer {
+		min-width: 500px;
+		max-height: 600px;
 	}
 }
+@media screen and (max-width: 768px) {
+	.homeItemContainer {
+		min-width: 450px;
+		max-height: 450px;
+	}
+}
+@media screen and (max-width: 414px) {
+	.homeItemContainer {
+		min-width: 390px;
+		max-height: 410px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.homeItemContainer {
+		min-width: 350px;
+		max-height: 450px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.homeItemContainer {
+		min-width: 310px;
+		max-height: 450px;
+	}
+}
+

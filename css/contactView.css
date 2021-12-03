@@ -68,13 +68,41 @@ hr {
 	border-image-slice: 1;
 }
 .contactDesc {
+	margin-right: 20px;
+	margin-left: 20px;
 	color: white;
 	text-align: center;
 	font-size: 1.3em;
 }
 
-@media (max-width: 725px) {
-	.contactContainer {
-		margin-top: 50px;
+@media screen and (max-width: 1024px) {
+	.contactItemContainer {
+		min-width: 600px;
+		max-height: 800px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.contactItemContainer {
+		min-width: 450px;
+		max-height: 450px;
+	}
+}
+@media screen and (max-width: 414px) {
+	.contactItemContainer {
+		min-width: 390px;
+		max-height: 410px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.contactItemContainer {
+		min-width: 350px;
+		max-height: 450px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.contactItemContainer {
+		min-width: 310px;
+		max-height: 470px;
 	}
 }

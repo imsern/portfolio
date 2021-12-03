@@ -13,13 +13,13 @@ body {
 
 /* HEADER CSS */
 header {
-	position: absolute;
+	position: relative;
 	height: 75px;
-	width: 100vw;
+	width: auto;
 	left: 50%;
 	top: 0;
 	transform: translate(-50%);
-
+	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -39,7 +39,6 @@ header {
 .headerContainer > * {
 	height: 30px;
 	width: 70px;
-	/* margin-right: 2em; */
 }
 button {
 	height: 10px;
@@ -76,29 +75,29 @@ button {
 
 /* MEDIA TAGS */
 
-@media (max-width: 750px) {
-	header {
-		/* flex-direction: column;
-		justify-content: space-between; */
-		left: 0;
-		transform: translate(0);
-	}
-	.container > * {
-		margin-right: 1em;
-	}
+
+
+/* @media screen and (max-width: 1024px) {
+	
+}
+@media screen and (max-width: 768px) {
+	
+} */
+@media screen and (max-width: 414px) {
 	.logo {
 		display: none;
 	}
-}
-
-@media (max-width: 550px) {
-	.container > * {
-		margin-right: 0.2em;
-	}
-}
-
-@media (max-width: 375px) {
 	header {
 		height: 30px;
 	}
+}
+@media screen and (max-width: 375px) {
+	.homeItemContainer {
+		min-width: 350px;
+		max-height: 450px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	
 }
