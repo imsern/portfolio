@@ -5,7 +5,7 @@ const model = {
 		Content: [
 			{
 				Title: {
-					profileImg: "profile.png",
+					profileImg: "profile.jpg",
 					txt: "Hello World!",
 					Tags: [
 						{
@@ -301,7 +301,7 @@ const model = {
 		Content: [
 			{
 				Title: {
-					profileImg: "profile.png",
+					profileImg: "profile.jpg",
 					txt: "About Me",
 					Tags: [
 						{
