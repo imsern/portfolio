@@ -1,8 +1,6 @@
 .contactContainer {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	position: relative;
+	margin-top: 115px;
 	height: 80vh;
 	width: 85vw;
 	display: flex;
@@ -11,6 +9,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	z-index: 1;
 }
 .contactItemContainer {
 	display: flex;
@@ -22,8 +21,6 @@
 	justify-content: center;
 	background-color: rgba(0, 0, 0, 0.541);
 	border-radius: 10px;
-	/* border-right: 4px solid rgba(26, 26, 26, 0.466);
-	border-bottom: 4px solid rgba(26, 26, 26, 0.466); */
 }
 .contactTitle {
 	color: white;
@@ -51,6 +48,7 @@
 	color: orange;
 	font-weight: bold;
 	font-size: 0.8em;
+	z-index: 2;
 }
 .contactItemTags:hover {
 	cursor: pointer;
@@ -73,6 +71,7 @@ hr {
 	color: white;
 	text-align: center;
 	font-size: 1.3em;
+	z-index: 2;
 }
 
 @media screen and (max-width: 1024px) {

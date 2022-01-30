@@ -1,22 +1,21 @@
 .aboutContainer {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	height: 80vh;
-	width: 85vw;
+	position: relative; 
+	margin-top: 115px;
+	margin-bottom: 60px;
+	/* height: 100%; */
+	width: 600px;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 5px;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	z-index: -1;
 }
 .aboutItemContainer {
 	display: flex;
 	flex: 0 1 1em;
 	flex-wrap: wrap;
-	height: 850px;
+	height: 100%;
 	min-width: 600px;
 	flex-direction: row;
 	justify-content: center;
@@ -26,10 +25,10 @@
 	border-bottom: 4px solid rgba(26, 26, 26, 0.466); */
 	overflow-x: hidden;
 }
-.aboutItemContainer::-webkit-scrollbar {
+/* .aboutItemContainer::-webkit-scrollbar {
 	width: 0px;
 	background: transparent;
-}
+} */
 .aboutTitle {
 	color: white;
 	text-align: center;

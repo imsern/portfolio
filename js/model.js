@@ -328,7 +328,7 @@ const model = {
 					],
 					Description:
 						"29 years old from Norway. Starting to learn coding with the goal of becoming a Fullstack/front-end developer.<br/><br/> Started my journey of coding in August 2021, when I joined Get Academy's 6month course in coding.",
-					Experience: ["Vue.js", "JavaScript", "HTML", "CSS"],
+					Experience: ["Vue.js", "JavaScript", "HTML", "CSS", "C#"],
 					OtherExp: [
 						"Adobe After Effects",
 						"Adobe Premiere",
@@ -369,7 +369,7 @@ const model = {
 						},
 					],
 					Description:
-						"I am open for any questions you must have! You can reach me on any of the pages linked below",
+						`I am open for any questions you must have! You can reach me on any of the pages linked below or send a mail to <a href="mailto: contact@kikit.no">contact@kikit.no</a>`,
 				},
 			},
 		],
