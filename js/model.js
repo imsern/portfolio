@@ -5,7 +5,7 @@ const model = {
 		Content: [
 			{
 				Title: {
-					profileImg: "images/profile.png",
+					profileImg: "profile.png",
 					txt: "Hello World!",
 					Tags: [
 						{
