@@ -5,7 +5,7 @@ const model = {
 		Content: [
 			{
 				Title: {
-					profileImg: "profile.jpg",
+					profileImg: "images/profile.png",
 					txt: "Hello World!",
 					Tags: [
 						{
@@ -31,7 +31,7 @@ const model = {
 						},
 					],
 					Description:
-						"My name is Kristoffer Knutsen. I am currently working on becoming a front-end/full stack developer.",
+						"My name is Kristoffer Knutsen. I am currently working on becoming a front-end/full stack developer.<br/> Languages I've used: JavaScript, CSS, HTML and C#. I have also used some Vue.js",
 				},
 			},
 		],

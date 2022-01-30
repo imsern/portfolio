@@ -30,8 +30,7 @@ function navBar() {
 	let html = `
     <header>
         <div class="logo">
-            <h1>kik</h1>
-            <h1 style="color:orange">IT</h1>
+            <div></div>
         </div>
         <div class="headerContainer">
         	<button class="navBar" onclick="changeView('Home')">Home</button>

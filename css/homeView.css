@@ -1,28 +1,25 @@
 .homeContainer {
-	position: relative;
+	position: relative; 
 	margin-top: 115px;
-	height: 80vh;
-	width: 85vw;
+	width: 600px;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 5px;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	z-index: -1;
+	z-index: 1;
 }
 .homeItemContainer {
 	display: flex;
 	flex: 0 1 1em;
 	flex-wrap: wrap;
-	height: 500px;
+	height: 100%;
 	min-width: 600px;
 	flex-direction: row;
 	justify-content: center;
 	background-color: rgba(0, 0, 0, 0.541);
 	border-radius: 10px;
-	/* border-right: 4px solid rgba(26, 26, 26, 0.466);
-	border-bottom: 4px solid rgba(26, 26, 26, 0.466); */
+	z-index: 1;
 }
 .homeTitle {
 	color: white;
@@ -50,10 +47,12 @@
 	color: orange;
 	font-weight: bold;
 	font-size: 0.8em;
+	z-index: 2;
 }
 .homeItemTags:hover {
 	cursor: pointer;
 	transform: scale(1.2);
+	z-index: 2;
 }
 hr {
 	width: 100%;
@@ -73,6 +72,7 @@ hr {
 	color: white;
 	text-align: center;
 	font-size: 1.3em;
+	z-index: 2;
 }
 @media screen and (max-width: 1024px) {
 	.homeItemContainer {

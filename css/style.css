@@ -16,6 +16,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: -1;
 }
 
 /* HEADER CSS */
@@ -30,17 +31,25 @@ header {
 	align-items: center;
 	background-color: rgb(24, 24, 24);
 	border-bottom: 1px solid orange;
+	z-index: 3;
 }
 .logo {
 	display: flex;
 	margin-left: 1em;
 	color: white;
 	position: absolute;
+	align-items: center;
 	left: 0;
+}
+.logo div{
+	height: 40px;
+	width: 150px;
+	background-image: url("../Images/Logo\ White.svg");
+	background-repeat: no-repeat;
 }
 .headerContainer {
 	margin-right: 1em;
-	z-index: 2;
+	z-index: 3;
 }
 .headerContainer > * {
 	height: 30px;
@@ -90,10 +99,12 @@ button {
 @media screen and (max-width: 768px) {
 	
 } */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 550px) {
 	.logo {
 		display: none;
 	}
+}
+@media screen and (max-width: 414px) {
 	header {
 		height: 30px;
 	}
