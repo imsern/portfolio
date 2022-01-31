@@ -96,31 +96,31 @@ hr {
 @media screen and (max-width: 1024px) {
 	.aboutItemContainer {
 		min-width: 600px;
-		max-height: 710px;
+		/* max-height: 710px; */
 	}
 }
 @media screen and (max-width: 768px) {
 	.aboutItemContainer {
 		min-width: 450px;
-		max-height: 450px;
+		/* max-height: 450px; */
 	}
 }
 @media screen and (max-width: 414px) {
 	.aboutItemContainer {
 		min-width: 390px;
-		max-height: 610px;
+		/* max-height: 610px; */
 	}
 }
 @media screen and (max-width: 375px) {
 	.aboutItemContainer {
 		min-width: 350px;
-		max-height: 670px;
+		/* max-height: 670px; */
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.aboutItemContainer {
 		min-width: 310px;
-		max-height: 470px;
+		/* max-height: 470px; */
 	}
 }
