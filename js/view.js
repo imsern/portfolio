@@ -29,7 +29,7 @@ function viewSelector() {
 function navBar() {
 	let html = `
     <header>
-        <div class="logo">
+        <div class="logo" onclick="changeView('Home')">
             <div></div>
         </div>
         <div class="headerContainer">
