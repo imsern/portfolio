@@ -295,6 +295,32 @@ const model = {
 					ReferencePage: "https://imsern.github.io/particleAccelerator/",
 				},
 			},
+			{
+				Title: {
+					txt: "Innsikt i egne følelser",
+					tags: [
+						{
+							id: 1,
+							Tag: "HTML",
+							linkedPage: "",
+						},
+						{
+							id: 2,
+							Tag: "Javascript",
+							linkedPage: "",
+						},
+						{
+							id: 2,
+							Tag: "CSS",
+							linkedPage: "",
+						},
+					],
+					Description:
+						"An app to register events throughout the day, and express feelings and why they got triggered. Disclaimer: It was designed to be used on mobile only," +
+						"It is not optimized for Desktop.",
+					ReferencePage: "https://imsern.github.io/innsikt-i-egne-folelser/",
+				},
+			},
 		],
 	},
 	Aboutpageview: {
